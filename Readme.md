@@ -13,7 +13,7 @@
 修改run.sh脚本中的STORE_PATH为VAE生成图像结果的保存路径，然后运行
 
 ```bash
-sbatch run.sh
+bash run.sh
 ```
 
 即可复现./images/best_config的结果（但在不同机器上可能会有不同的生成效果）
